@@ -34,7 +34,7 @@ module.exports = {
         exclude: /node_modules/,
         query: {
           plugins: ['transform-runtime'],
-          presets: ['es2015', 'react', 'stage-0'] // <--- here
+          presets: ['@babel/preset-env', 'react', 'stage-0'] // <--- here
       }
       },
       {

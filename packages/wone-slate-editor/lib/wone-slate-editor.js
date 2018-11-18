@@ -1,8 +1,8 @@
+import React from 'react'
 import { Editor, getEventRange, getEventTransfer } from 'slate-react'
 import { Block, Value } from 'slate'
 
-import React from 'react'
-import initialValueAsJson from './value.json'
+import initialValueAsJson from './value.json'1
 
 import imageExtensions from 'image-extensions'
 import isUrl from 'is-url'
